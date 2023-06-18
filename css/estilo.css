@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.marcador{
+    border: 1px solid red;
+}
+
+
+/*área topo*/
+.area-topo{
+    width: 100%;
+    background-color: #604829;
+    padding: 30px 0;
+    font-family: 'Oswald', sans-serif;
+    position: fixed;
+    z-index: 1;
+}
+
+.area-topo img, .area-topo p{
+    position: absolute;
+}
+
+.area-topo img{
+    width: 60px;
+    top: 0;
+    left: 220px;
+}
+
+.area-topo p{
+    top: 15px;
+    right: 220px;
+   
+}
+
+.area-topo a{
+    color: #c4a47c;
+    text-decoration: none;
+    text-shadow: #000 3px 3px;
+    padding: 0 10px;
+}
+
+/*Área banner*/
+.area-banner{
+    position: relative;
+    top: -40px;
+    width: 100%;
+    height: 830px;
+    background-image: url("../assets/parallax-imagem1.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.area-banner h1{
+    font-family: 'Fraunces', serif;
+    color: #fff;
+    font-size: 70px;
+    font-weight: normal;
+    position: relative;
+    top: 50%;
+    left: 15%;
+}
+
+/*Área texto*/
+.container-texto{
+    width: 100%;
+    height: 160px;
+    position: relative;
+    padding: 100px 0;
+}
+
+.container-texto h2, .container-texto p{
+    position: absolute;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.container-texto h2{
+    top: 15%;
+    left: 33%;
+    color: #c4a47c;
+    font-size: 22px;
+}
+
+.container-texto p{
+    width: 736px;
+    left: 24%;
+    line-height: 32px;
+    color: #ACACAC;
+    font-size: 16px;
+}
+
+.texto-1{
+    top:-40px;
+}
+
+/*Área imagem*/
+.container-imagem{
+   height: 420px;
+      width: 100%;
+   position: relative;
+    
+}
+
+.container-imagem h3{
+    font-family: 'Fraunces', serif;
+    background-color: #604829;
+    color: #fff;
+    font-style: italic;
+    font-weight: normal;
+    padding: 5px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.imagem-1{
+    background-image: url("../assets/parallax-imagem2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.imagem-2{
+    background-image: url("../assets/parallax-imagem3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Área contatos*/
+.area-contatos{
+    height: 900px;
+    width: 100%;
+    position: relative;
+    background-image: url("../assets/parallax-imagem4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+ }
+ 
+ .area-contatos h2, .area-contatos iframe, .area-contatos .paragrafo{
+    position: absolute;
+ }
+
+ .area-contatos h2{
+    top: 80px;
+    left: 50%;
+    font-family: 'Oswald', sans-serif;
+    background-color: #604829;
+    color: #fff;
+    font-weight: normal;
+    padding: 5px 100px;
+    font-size: 22px;
+    transform: translate(-50%, -50%);
+ }
+
+ .area-contatos iframe{
+    top: 380px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .area-contatos .paragrafo{
+    width: 440px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    font-family: 'Oswald', sans-serif;
+    background-color: #604829;
+    color: #fff;
+ }
+
+ .paragrafo p{
+    text-align: center;
+    margin: 10px auto; 
+ }
