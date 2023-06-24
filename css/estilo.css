@@ -187,3 +187,106 @@ body{
     text-align: center;
     margin: 10px auto; 
  }
+
+ /*Seção Horários*/
+.secao-horarios{
+    width: 100%;
+    height: 380px;
+    position: relative;
+    padding: 100px 0;
+    background-image: url("../assets/cafeteria.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -150px;
+}
+
+.secao-horarios ul, .secao-horarios h2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.secao-horarios ul{
+    width: 620px;
+    top: 60%;
+    left: 50%;
+    padding: 0 10px 10px;
+}
+
+ .secao-horarios li{
+    display: flex;
+    padding: 5px;
+    margin-top: 12px;
+ }
+
+ .secao-horarios h2{
+    width: 600px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    top: 26%;
+    left: 50%;
+    font-size: 16px;
+    word-spacing: 8px;
+    letter-spacing: 4px;
+ }
+
+ .secao-horarios h3, .secao-horarios hr, .secao-horarios p{
+    color: #fff;
+ }
+ 
+ .secao-horarios h3{
+    width: 68px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+ }
+
+.secao-horarios p{
+    margin-left: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+
+ .secao-horarios div{
+    width: 415px;
+    margin-left: 5px;
+ }
+
+ .secao-horarios span{
+    color: #bea476;
+    margin-left: 35px;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+
+ }
+
+ .secao-horarios hr{
+    box-sizing: border-box;
+    margin-top: 7px;
+ }
+
+ /*Área Rodapé*/
+ .rodape{
+    height: 62px;
+    text-align: center;
+    background-color: #000000;
+    padding: 20px 0;
+ }
+
+ .rodape p{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+ }
+
+ .rodape img{
+    background-color: #c4a47c;
+    width: 40px;
+    border-radius: 4px;
+ }
+
+ .rodape a{
+    position: relative;
+    top: -96px;
+    right: -706px;
+ }
+ 
